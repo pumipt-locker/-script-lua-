@@ -1,7 +1,7 @@
 repeat
     task.wait()
 until game:IsLoaded()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/ok'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/pumipt-locker/-script-lua-/main/Secret.lua'))()
 
 local Disables = {
     game:GetService("Players").LocalPlayer.Idled,
@@ -56,6 +56,7 @@ if setfflag then
     setfflag("HumanoidParallelRemoveNoPhysics", "False")
     setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
 end
+
 if setfpscap then
     setfpscap(65)
 end
